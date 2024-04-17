@@ -8,7 +8,7 @@ PHP library for QR Code Generator.
 
 ### Installation
 
-`composer require khalilleo-webagentur/php-qacod`
+`composer require khalilleo-webagentur/php-qacode`
 
 ### Usage
 
