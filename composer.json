@@ -1,0 +1,37 @@
+{
+  "name": "khalilleo-webagentur/php-qacode",
+  "description": "PHP library for QR-Code generation",
+  "keywords": [
+    "QA Genrator",
+    "QR code",
+    "QR package",
+    "QR PHP"
+  ],
+  "homepage": "https://github.com/khalilleo-webagentur",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Khalilleo",
+      "email": "hussein@khalilleo.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {},
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Khalilleo\\QrCode\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": []
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
